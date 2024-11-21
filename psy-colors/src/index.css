@@ -4,8 +4,9 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #000000;
+  background-color: #ffffff;
+  opacity: 0.9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -63,6 +64,7 @@ button:focus-visible {
   opacity: 0.8;
   transition: opacity 0.25s;
   border-radius: 2%;
+  border: 0.1px solid #000000;
 }
 .color-img:hover {
   opacity: 1.1;
@@ -73,7 +75,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #000000;
     background-color: #ffffff;
   }
   a:hover {
