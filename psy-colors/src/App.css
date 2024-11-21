@@ -53,4 +53,19 @@
   .MuiImageListItem-img {
     width: 98% !important; 
   }
+  .header-logo {
+    max-width: 350px;
+  }
+  .title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header-logo {
+    max-width: 250px;
+  }
+  .title {
+    font-size: 24px;
+  }
 }
