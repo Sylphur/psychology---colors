@@ -1,0 +1,14 @@
+.colors-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.card-image {
+  height: 355px;
+}
