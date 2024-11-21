@@ -31,3 +31,26 @@
 .read-the-docs {
   color: #888;
 }
+.MuiImageList-masonry::-webkit-scrollbar { 
+  display: none; 
+}
+.MuiImageListItem-img {
+  width: 99% !important; 
+}
+.header-logo {
+  max-width: 650px;
+}
+@media screen and (max-width: 800px) {
+  .header-logo {
+    max-width: 450px;
+  }
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .MuiImageListItem-img {
+    width: 98% !important; 
+  }
+}

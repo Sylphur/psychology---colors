@@ -38,6 +38,18 @@
   align-items: center;
   justify-content: center;
 }
+.card-return {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+.card-return:hover {
+  border: 2px solid #000000;
+  border-radius: 50%;
+  transition: border-color 0.25s;
+}
 
 @media screen and (max-width: 700px) {
   .logo {

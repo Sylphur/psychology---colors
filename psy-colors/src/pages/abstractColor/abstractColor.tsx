@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './abstractColor.css';
 
 export interface AbstractColorProps {
@@ -19,6 +20,9 @@ function AbstractColor(props: AbstractColorProps) {
           {props.description}
           </p>
         </div>
+        <Link to={`/`}>
+          <span className='card-return' style={{color: `${props.textColor}`}}>{`<<`}</span>
+        </Link>
       </div>
     </section>
   )
